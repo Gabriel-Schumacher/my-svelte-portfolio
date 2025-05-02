@@ -30,7 +30,7 @@
 			link: 'http://52.15.162.249/'
 		},
 		{
-			buttonText: 'I coded based on what I was given by the design team. We were tasked to create landing page for the Candy Bombers website. I used vanilla JS, HTML and CSS to create a responsive design.',
+			buttonText: 'I coded based on what I was given by the design team. We were tasked to create desktop landing page for the Candy Bombers website. I used vanilla JS, HTML and CSS.',
 			image: '/candy.webp',
 			link: 'https://prototype-candy-bomber.netlify.app/home'
 		},
