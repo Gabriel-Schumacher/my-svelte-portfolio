@@ -181,5 +181,23 @@
 				required
 			/>
 		</form>
+        <div class="card mt-6 flex flex-col gap-4 rounded-lg border-1 border-gray-200 p-4 shadow-xl">
+            <p class="text-sm mt-4">
+                If you prefer you can email me directly at:
+                <span><a href="mailto:schumachergabe@gmail.com" class="text-primary-500 hover:underline">schumachergabe@gmail.com</a></span>
+            </p>
+            <p>I am also available on social media! You can find me on:</p>
+            <div class="flex gap-4 mt-2">
+                <a href="https://github.com/Gabriel-Schumacher" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                    <img src="/square-github-brands.svg" alt="Github" width="48" height="48" class="hover:rotate-6">
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-schumacher-15749a1b9/" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                    <img src="/linkedin-brands.svg" alt="LinkedIn" width="48" height="48" class="hover:rotate-6">
+                </a>
+                <a href="https://www.facebook.com/gabe.schumacher.7/" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                    <img src="/square-facebook-brands.svg" alt="Facebook" width="48" height="48" class="hover:rotate-6">
+                </a>
+            </div>
+        </div>
 	</div>
 </div>
