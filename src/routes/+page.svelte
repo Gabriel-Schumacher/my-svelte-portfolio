@@ -21,9 +21,9 @@
             image: '/standin.webp', 
             link: '' },
 		{ 
-            buttonText: 'Vue', 
+            buttonText: 'I built a fake online store using Vue 3 and a free store items API. I also used Tailwind CSS to style the app.', 
             image: '/standin.webp', 
-            link: '' },
+            link: 'https://vueportfoliostore.netlify.app/' },
 		{
 			buttonText: 'I created a custom Wordpress theme for a school project. I used PHP and SCSS to create a mobile friendly design. I can also manage ecommerce in Wordpress sites using WooCommerce.',
 			image: '/wordpress.webp',
