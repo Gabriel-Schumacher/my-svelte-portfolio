@@ -116,8 +116,7 @@
 				<button type="button" class="btn bg-primary-500 w-22 rounded-3xl p-3 shadow-xl"
 					><a href="/Gabriel_Resume.pdf" download>Resume</a></button
 				>
-				<button type="button" class="btn bg-secondary-500 w-22 rounded-3xl p-3 shadow-xl">CV</button
-				>
+				<!-- <button type="button" class="btn bg-secondary-500 w-22 rounded-3xl p-3 shadow-xl">CV</button> -->
 			</div>
 		</div>
 		<div class="hidden items-center justify-center md:flex">
