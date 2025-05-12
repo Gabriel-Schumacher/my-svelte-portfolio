@@ -188,13 +188,13 @@
             <p>I am also available on social media! You can find me on:</p>
             <div class="flex gap-4 mt-2">
                 <a href="https://github.com/Gabriel-Schumacher" target="_blank" rel="noopener noreferrer" class="hover:underline">
-                    <img src="/square-github-brands.svg" alt="Github" width="48" height="48" class="hover:rotate-6">
+                    <img src="/square-github-brands.svg" alt="Github" width="48" height="48" class="hover:rotate-6 dark:invert">
                 </a>
                 <a href="https://www.linkedin.com/in/gabriel-schumacher-15749a1b9/" target="_blank" rel="noopener noreferrer" class="hover:underline">
-                    <img src="/linkedin-brands.svg" alt="LinkedIn" width="48" height="48" class="hover:rotate-6">
+                    <img src="/linkedin-brands.svg" alt="LinkedIn" width="48" height="48" class="hover:rotate-6 dark:invert">
                 </a>
                 <a href="https://www.facebook.com/gabe.schumacher.7/" target="_blank" rel="noopener noreferrer" class="hover:underline">
-                    <img src="/square-facebook-brands.svg" alt="Facebook" width="48" height="48" class="hover:rotate-6">
+                    <img src="/square-facebook-brands.svg" alt="Facebook" width="48" height="48" class="hover:rotate-6 dark:invert">
                 </a>
             </div>
         </div>
