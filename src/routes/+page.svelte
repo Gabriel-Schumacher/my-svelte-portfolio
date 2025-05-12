@@ -130,7 +130,7 @@
                 <ProjectCard {...card} />
             {/each}           
 
-        <div class="w-full flex justify-center md:col-span-2">
+        <div class="flex justify-center md:col-span-2">
             <Pagination
                 data={cardData}
                 {page}
@@ -139,7 +139,7 @@
                 onPageSizeChange={(e) => (size = e.pageSize)}
                 siblingCount={4}
                 classes="flex justify-center gap-4 align-top h-14"
-                buttonClasses="btn bg-primary-500 w-22 rounded p-3 shadow-xl"
+                buttonClasses="btn bg-primary-500 w-18 md:w-22 rounded p-3 shadow-xl"
                 buttonActive="bg-secondary-500 text-white"
             />            
         </div>
