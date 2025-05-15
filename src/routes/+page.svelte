@@ -17,9 +17,9 @@
             image: '/standin.webp', 
             link: '' },
 		{ 
-            buttonText: 'Svelte', 
+            buttonText: 'I created a music player using SvelteKit.', 
             image: '/standin.webp', 
-            link: '' },
+            link: 'https://gabrielmusicplayer.netlify.app/' },
 		{ 
             buttonText: 'I built a fake online store using Vue 3 and a free store items API. I also used Tailwind CSS to style the app.', 
             image: '/vueStore.webp', 
