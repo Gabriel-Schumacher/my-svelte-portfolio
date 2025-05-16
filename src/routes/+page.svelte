@@ -17,7 +17,7 @@
             image: '/standin.webp', 
             link: '' },
 		{ 
-            buttonText: 'I created a music player using SvelteKit.', 
+            buttonText: 'I created a music player using SvelteKit. In the future I plan to add a backend to store user data and playlists. I also used Tailwind CSS to style the app.', 
             image: '/standin.webp', 
             link: 'https://gabrielmusicplayer.netlify.app/' },
 		{ 
