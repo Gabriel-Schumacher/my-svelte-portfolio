@@ -13,9 +13,9 @@
 
 	let cardData: CardData[] = [
 		{ 
-            buttonText: 'React', 
+            buttonText: 'I built an AI powered chat using Next.js and OpenAI API. I used Skeleton UI and tailwind CSS to style the app.', 
             image: '/standin.webp', 
-            link: '' },
+            link: 'https://next-portfolio-sigma-dusky.vercel.app/' },
 		{ 
             buttonText: 'I created a music player using SvelteKit. In the future I plan to add a backend to store user data and playlists. I also used Tailwind CSS to style the app.', 
             image: '/standin.webp', 
