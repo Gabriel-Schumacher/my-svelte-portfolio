@@ -13,12 +13,12 @@
 
 	let cardData: CardData[] = [
 		{ 
-            buttonText: 'I built an AI powered chat using Next.js and OpenAI API. I used Skeleton UI and tailwind CSS to style the app.', 
-            image: '/standin.webp', 
+            buttonText: 'I built an AI powered chat using Next.js and the OpenAI API. I used Skeleton UI and tailwind CSS to style the app.', 
+            image: '/chat.webp', 
             link: 'https://next-chatbot-delta.vercel.app/' },
 		{ 
             buttonText: 'I created a music player using SvelteKit. In the future I plan to add a backend to store user data and playlists. I also used Tailwind CSS to style the app.', 
-            image: '/standin.webp', 
+            image: '/music.webp', 
             link: 'https://gabrielmusicplayer.netlify.app/' },
 		{ 
             buttonText: 'I built a fake online store using Vue 3 and a free store items API. I also used Tailwind CSS to style the app.', 
