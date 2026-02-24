@@ -1,0 +1,1 @@
+// This file has been deleted as the email-sending logic has been moved to the client-side.

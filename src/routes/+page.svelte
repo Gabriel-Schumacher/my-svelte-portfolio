@@ -25,9 +25,9 @@
             image: '/vueStore.webp', 
             link: 'https://vueportfoliostore.netlify.app/' },
 		{
-			buttonText: 'I created a custom Wordpress theme for a school project. I used PHP and SCSS to create a mobile friendly design. I can also manage ecommerce in Wordpress sites using WooCommerce.',
+			buttonText: 'I redesigned the website for the non-profit Discovery Learning Association. I then implimented my design in Wordpress using the Gutenberg editor and custom CSS.',
 			image: '/wordpress.webp',
-			link: 'http://52.15.162.249/'
+			link: 'https://discovery-learning.org/'
 		},
 		{
 			buttonText: 'I coded based on what I was given by the design team. We were tasked to create desktop landing page for the Candy Bombers website. I used vanilla JS, HTML and CSS.',
@@ -53,19 +53,27 @@
 
 	let formRef: HTMLFormElement | null = null;
 
-	const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
-	const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
-	const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
+	const sendEmail = async (e: SubmitEvent) => {
+		e.preventDefault();
 
-	const sendEmail = (e: SubmitEvent) => {
-		emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target as HTMLFormElement, PUBLIC_KEY).then(
-			() => {
-				console.log('SUCCESS!');
-			},
-			(error) => {
-				console.log('FAILED...', error.text);
-			}
-		);
+		const formData = new FormData(e.target as HTMLFormElement);
+		const data = Object.fromEntries(formData);
+
+		const SERVICE_ID = process.env.SERVICE_ID;
+		const TEMPLATE_ID = process.env.TEMPLATE_ID;
+		const PUBLIC_KEY = process.env.PUBLIC_KEY;
+
+		if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
+			console.error('Missing environment variables');
+			return;
+		}
+
+		try {
+			await emailjs.send(SERVICE_ID, TEMPLATE_ID, data, PUBLIC_KEY);
+			console.log('SUCCESS!');
+		} catch (error) {
+			console.error('FAILED...', error);
+		}
 	};
 
 	onMount(() => {
@@ -109,7 +117,7 @@
 			<p class="text-md">
 				I am a recently graduated Web Developer who loves building fast, accessible, and user
 				friendly apps! I specialize in frameworks like React, Svelte and Vue. I also have some
-				experience working with Wordpress and PHP. I'm currently looking for opportunities to
+				experience working with Wordpress and other CMS platforms. I'm currently looking for opportunities to
 				contribute to impactful projects and grow as a developer!
 			</p>
 			<div class="mt-4 flex gap-4">
